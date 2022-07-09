@@ -14,7 +14,7 @@
   // Bonus Max Health attribute config
   "maxHealthConfig": {
     // Chance for an armor item to add bonus max health [0 = never, 1 = always] [default = 0.05]
-    "attributeChance": 0.05,
+    "attributeChance": 100,
     /* Set to true to round bonus health to a whole number, so hearts are filled up nicely on the HUD [default = true]
        This means bonus health of +2.3 would round to just +2, or bonus health of +2.7 would round to +3
     */
@@ -40,7 +40,7 @@
            have one armor at 50% dmg reduction, and another at 50% dmg reduction, you don't have 100% dmg reduction.
            Instead, it would reduce the final damage you take by 50% once, then 50% again effectively giving 75% dmg reduction.
     */
-    "attributeChance": 0.05,
+    "attributeChance": 100,
     // Minimum damage percentage [default = 2.5]
     "minDmgReduction": 2.5,
     // Maximum damage percentage] [default = 90]
@@ -61,7 +61,7 @@
        from the original movement speed.  So if you have 4 armor items each 25%, you ultimately get 100% bonus movement speed.
        Note: The tooltip will show movementSpeed * 10, so it looks like a nicer integer value.
     */
-    "attributeChance": 0.05,
+    "attributeChance": 100,
     // Minimum movement speed boost percentage [default = 1]
     "minSpeed": 1.0,
     // Maximum movement speed boost percentage [default = 100]
@@ -81,7 +81,7 @@
        Knockback Resistance is a rate from 0 to 1, where 1 means 100% knockback resistance, 0.5 means 50%.
        Note: The tooltip will show knockbackResistance * 100, so it looks like a nicer integer value.
     */
-    "attributeChance": 0.05,
+    "attributeChance": 100,
     // Minimum knockback resistance (this is a rate from 0 to 1) [default = 0.01]
     "minKnockbackResistance": 0.01,
     // Maximum knockback resistance (this is a rate from 0 to 1) [default = 0.25]
@@ -100,7 +100,7 @@
     /* Chance for an armor item to have thorns attribute. [0 = never, 1 = always] [default = 0.05]
        Thorns returns damage back to the attacker.
     */
-    "attributeChance": 0.05,
+    "attributeChance": 100,
     // Minimum thorns return damage percentage [default = 1]
     "minReturnDmg": 1.0,
     // Maximum thorns return damage percentage [default = 1000]
